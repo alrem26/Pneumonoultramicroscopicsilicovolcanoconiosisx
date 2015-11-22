@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mycompany.myfirstapp" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".MyActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mycompany.myfirstapp.MyActivity" />
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Categories"
+            android:label="@string/title_activity_categories" >
+        </activity>
+        <activity
+            android:name=".Education"
+            android:label="@string/title_activity_education" >
+        </activity>
+        <activity
+            android:name=".TuitionFee"
+            android:label="@string/title_activity_tuition_fee" >
+        </activity>
+        <activity
+            android:name=".SideComments"
+            android:label="@string/title_activity_side_comments" >
+        </activity>
+        <activity
+            android:name=".WriteAComment"
+            android:label="@string/title_activity_write_acomment" >
+        </activity>
+    </application>
+
+</manifest>

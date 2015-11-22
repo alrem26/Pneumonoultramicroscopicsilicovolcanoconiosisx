@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/wall"
+    tools:context="com.mycompany.myfirstapp.Education">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:background="#fff"
+        android:textColor="@color/bgColor"
+        android:text="Tuition Fee Per Unit in State Universities"
+        android:id="@+id/buttontutionfee"
+        android:layout_marginTop="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List of Public Schools"
+        android:padding="40dp"
+        android:background="#fff"
+        android:textColor="@color/bgColor"
+        android:id="@+id/button"
+        android:layout_below="@+id/buttontutionfee"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>
