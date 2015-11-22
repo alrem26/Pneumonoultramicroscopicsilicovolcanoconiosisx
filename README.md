@@ -7,7 +7,10 @@
      participating in discussions through comments. It also has a feature which will let 
      users take pictures for updates and progress.
 ##Screenshots
-<url here>
+![Screenshot 1](https://github.com/alrem26/Pneumonoultramicroscopicsilicovolcanoconiosisx/blob/master/ScreenShots/1.png)
+![Screenshot 2](https://github.com/alrem26/Pneumonoultramicroscopicsilicovolcanoconiosisx/blob/master/ScreenShots/2.png)
+![Screenshot 3](https://github.com/alrem26/Pneumonoultramicroscopicsilicovolcanoconiosisx/blob/master/ScreenShots/3.png)
+![Screenshot 4](https://github.com/alrem26/Pneumonoultramicroscopicsilicovolcanoconiosisx/blob/master/ScreenShots/4.png)
 ## Tech and Data Used
 * android
 * FireBase
